@@ -16,14 +16,7 @@ export class HelperProvider {
   Emp_PhotoPath:any
   token:any
   PlayerID:any
-  base_url:string="https://empportalapi.careofme.net/api/"
-      
-    //http://192.168.1.160:1010/api/
-    
-    //https://empportalapi.careofme.net/
-
-    // "http://192.168.1.160/ftphrms/TempFiles/Temp/04480303-0c9e-4be2-8339-5be89eb5571b.png
-    // split('/') with the last index
+  
   constructor(public http: HttpClient,private translate: TranslateService) {
 
   }
